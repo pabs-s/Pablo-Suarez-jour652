@@ -63,25 +63,22 @@
   margin-bottom: 0px;
 }
 
-/*contact info, skills, education*/ .menu
-li {
+/*contact info, skills, education*/ .menu {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left:0px;
+  margin-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left:0px;
+  padding-right: 0px;
   display: inline;
-  list-style-type: none;
-  font-size: 1em;
-  margin: 0px;
-  padding:0px;
   text-align: center;
+  margin: 0 auto;
 }
 
-ul {
-  list-style-type: none;
-  font-size: 1em;
-  margin: 0px;
-  padding:0px;
-  text-align: center;
-}
 
-#degrees li {
+#degrees {
 list-style-type: disc;
 margin-top: 5px;
 margin-left: 0px;
@@ -89,31 +86,13 @@ margin-right: 0px;
 margin-bottom: 0px;
 }
 
-ul {
-list-style-type: disc;
-margin-top: 5px;
-margin-left: 0px;
-margin-right: 0px;
-margin-bottom: 0px;
-}
-
-#do li{;
+#do {
   list-style-type: disc;
   margin-top: 5px;
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
   }
-
-  ul {
-  list-style-type: disc;
-  margin-top: 5px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-}
-
-
 
 #container {
   width: 100%;
