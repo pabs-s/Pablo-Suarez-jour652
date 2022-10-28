@@ -17,12 +17,16 @@ h1 {
   font-size: 45px;
 }
 
+img {
+width:900px;
+margin:auto;
+}
+
 blockquote {
 font: 24px normal helvetica, sans-serif;
 font-style: italic;
 margin-top: 15px;
 margin-bottom: 15px;
-color: red;
 margin-left: 50px;
 padding-left: 15px;
 border-left: 4px solid #ccc;
@@ -37,9 +41,17 @@ h2 {
 p {
   font-family: Georgia, Times, serif;
   font-size: 13px;
+  text-align: left;
 }
 
 ul {
   font-family: Georgia, Times, serif;
   font-size: 13px;
+}
+
+figcaption {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
 }
