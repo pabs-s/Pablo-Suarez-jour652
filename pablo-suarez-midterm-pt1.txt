@@ -1,0 +1,58 @@
+JOUR652: Midterm -- Pablo Suarez
+Part 1: Q&A
+
+Questions
+
+1.  In the sentence below, put in the necessary code that would allow users to click on the word Google and open Google's homepage in a new browser:
+Google is the best search engine in the world.
+<a href="www.google.com" target="_blank"><Google is the best search engine in the world.</a>
+
+2.  Describe the purpose of a DIV tag.
+A div tag is an html element that defines a section of the document. It's used to group together html elements for formatting with css.
+
+3.  Write out the basic structure of an HTML page, putting the basic tags in the correct position. (Note: you don't need to connect it to a stylesheet or include DIV tags or anything like that)
+
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+<h1></h1>
+<p>
+</p>
+
+</body>
+</html>
+
+4.  There are two main "areas" or "sections" in the basic structure of an HTML page. In which area would you put a link to a stylesheet?
+You would add the link to the css file inside of the <head> section.
+
+5.  In which main "area" or "section" of an HTML page would you put text, images or DIV tags?
+Elements like text, images and div tags would be found inside of the "body" section of an html page.
+
+6.  In the space below, put one DIV tag with a class of graphicbox and a second DIV tag with an ID of name.
+<div class="graphicbox"></div>
+<div id="name"></div>
+
+7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
+<div id="apples" class="fruit"></div>
+
+8.  In the space below, write the correct CSS code to target a DIV with a class of fruit.  Make the color of the text black (#000000).
+
+.fruit {
+color: #000000;
+}
+
+9.  What tag would we use to include an image on an HTML page? Just give me the name of the tag, you don't have to write out all the code.
+We would use the following tag: <img src="folder/filename">
+
+10.  Why do we use media queries?
+Media queries are used to apply different styles for different formats or devices (i.e., mobile vs desktop).
+
+11. What is the main difference between a serif and a sans-serif font?
+The main difference between the two fonts is that serif has extra decorative elements while sans-serif does not, the "sans" indicates that those elements are missing.
+
+12. Which of the following is a hexadecimal code? To answer, delete the options that are not a hexadecimal code.
+#FFCC33
