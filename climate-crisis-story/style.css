@@ -63,6 +63,11 @@ text-align: center;
 font-weight: 500;
 }
 
+.firstcharacter {
+color: #DC143C;
+font-size: 3em;
+}
+
 p {
 font-family: Georgia, serif;
 line-height: 180%;
@@ -73,19 +78,42 @@ font-size: 1em;
 #sidebar{
 	width: 80%;
 	margin: 0 auto;
-	margin-top:70px;
-	margin-bottom: 70px;
+	margin-top:30px;
+	margin-bottom: 30px;
 	border: 4px solid #DC143C;
-	background:
-	padding: 5px 10px;
+	margin-left: auto;
+  margin-right: auto;
+	padding: 20px;
 	font-size: 1em;
-
 	font-family: 'Montserrat',serif;
 }
 
-#side-source{
+#sidebar-source{
 	font-style: italic;
+  text-align: right;
+  font-size: 0.75em;
  }
+
+ /* unvisited*/
+ a:link {
+   color: red;
+ }
+
+ /* visited*/
+ a:visited {
+   color: blue;
+ }
+
+ /* mouse over*/
+ a:hover {
+   color: black;
+ }
+
+h3 {
+font-family: 'Montserrat',serif;
+  font-weight: 500;
+  color:#DC143C;
+}
 
 /* pull quote*/
 .pull-quote{
@@ -93,7 +121,7 @@ font-size: 1em;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	text-align: left;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .quote{
@@ -135,4 +163,32 @@ margin:0 auto;
   color: black;
   margin: 0.5em;
  padding: 0.5em;
+}
+
+/* Media Query */
+@media (max-width:700px){
+  .hero-head{
+    font-size:1.5em;
+  }
+
+  .hero-subhead{
+    font-size:1em;
+  }
+
+  #sidebar{
+    order: 1;
+     display: flex;
+     width: 100%;
+  }
+
+.bottom-right{
+  font-size:1em;
+  width: 100%;
+  order: 2;
+  display: flex;
+}
+
+#credits {
+text-align: center;
+
 }
