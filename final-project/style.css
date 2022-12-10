@@ -1,9 +1,20 @@
+
+
 .navbar-brand {
-color: #FF69B4;
+background-color: #FF69B4;
+color: #101010;
 font-family:'Roboto Slab', serif;
-font-weight: bold;
+font-weight: bolder;
 text-align: center;
+margin: 0 auto;
+width: 100%;
+padding: 0;
 }
+
+div {
+  background-color: #101010;
+}
+
 
 .hero-container{
 position: relative;
@@ -17,7 +28,7 @@ color: white;
   display: flex;
   align-items: center;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
   .circular--portrait img {
@@ -26,11 +37,12 @@ color: white;
   border-radius: 50%;
 }
 
-h1 {
+#headline {
   padding-top: 20px;
   font-family: 'Roboto Slab', serif;
   font-size: 55px;
   text-transform: capitalize;
+  color: #FFFFFF;
 }
 
 #byline{
@@ -40,15 +52,12 @@ font-family: 'Roboto Slab', serif;
 text-transform: uppercase;
 font-weight: 500;
 float: left;
+color: #FFFFFF;
 }
 
-.hero-image{
-  filter: grayscale(100%);
-  max-width: 100%;
-  height: auto;
-  width: auto;
-  margin:auto;
-  display:block
+.infographic {
+width: auto;
+height: auto;
 }
 
 
@@ -60,7 +69,8 @@ font-size: 3em;
 p {
 font-family: Georgia, serif;
 line-height: 180%;
-font-size: 1em;
+font-size: 1.25em;
+color: #FFFFFF;
 }
 
 /* Sidebar */
@@ -104,27 +114,6 @@ font-family: 'Roboto Slab', serif;
   color:#DC143C;
 }
 
-/* pull quote*/
-.pull-quote{
-	font-family: 'Roboto Slab', serif;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	text-align: left;
-	margin-bottom: 20px;
-}
-
-.quote{
-	font-weight: 700;
-	font-size: 2.5em;
-	color:#DC143C;
-}
-
-.quote-attr{
-	font-style: italic;
-	font-size: 1em;
-	font-weight:400;
-}
-
 #footer {
 font-size: 0.75em;
 font-family: Georgia, serif;
@@ -148,10 +137,11 @@ margin:0 auto;
 .caption{
   font-size: .85em;
   font-family: 'Roboto Slab', serif;
+  font-style: italic;
   text-align: left;
-  color: black;
   margin: 0.5em;
  padding: 0.5em;
+ color: #FFFFFF;
 }
 
 /* Media Query */
@@ -176,6 +166,28 @@ margin:0 auto;
   order: 2;
   display: flex;
 }
+
+/* pull quote*/
+.pull-quote{
+	font-family:'Roboto Slab', serif;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.quote{
+	font-weight: 700;
+	font-size: 2.5em;
+	color:#FFFFFF;
+}
+
+.quote-attr{
+	font-style: italic;
+	font-size: 1em;
+	font-weight:400;
+}
+
 
 #credits {
 text-align: center;
