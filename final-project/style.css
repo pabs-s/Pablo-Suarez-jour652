@@ -1,15 +1,45 @@
 .navbar-brand {
 color: #FF69B4;
-font-family: 'Montserrat', sans-serif;
+font-family:'Roboto Slab', serif;
 font-weight: bold;
-display : flex;
-justify-content: center;
+text-align: center;
 }
 
 .hero-container{
 position: relative;
 text-align: center;
 color: white;
+}
+
+.circular--portrait {
+  width: 35%;
+  height:45%;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+  .circular--portrait img {
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+}
+
+h1 {
+  padding-top: 20px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 55px;
+  text-transform: capitalize;
+}
+
+#byline{
+  font-size: 18px;
+  padding-left: 10px;
+font-family: 'Roboto Slab', serif;
+text-transform: uppercase;
+font-weight: 500;
+float: left;
 }
 
 .hero-image{
@@ -21,48 +51,6 @@ color: white;
   display:block
 }
 
-.overlay{
-  position: absolute;
-  top:40%;
-  width: 100%;
-  background-color: black;
-  opacity: .8;
-}
-
-.hero-head{
-  font-family: 'Montserrat', serif;
-  font-size: 6em;
-  color: white;
-  margin: 0 auto;
-  line-height: normal;
-}
-
-.hero-subhead{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2em;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-#headline{
-  font-size: 5em;
-  color: #DC143C;
-  font-weight: 700;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-}
-
-#byline{
-font-size: 1em;
-font-family: 'Montserrat', sans-serif;
-text-transform: uppercase;
-text-align: center;
-font-weight: 500;
-}
 
 .firstcharacter {
 color: #FF69B4;
@@ -86,7 +74,7 @@ font-size: 1em;
   margin-right: auto;
 	padding: 20px;
 	font-size: 1em;
-	font-family: 'Montserrat',serif;
+	font-family: 'Roboto Slab', serif;
 }
 
 #sidebar-source{
@@ -111,14 +99,14 @@ font-size: 1em;
  }
 
 h3 {
-font-family: 'Montserrat',serif;
+font-family: 'Roboto Slab', serif;
   font-weight: 500;
   color:#DC143C;
 }
 
 /* pull quote*/
 .pull-quote{
-	font-family: 'Montserrat',serif;
+	font-family: 'Roboto Slab', serif;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	text-align: left;
@@ -149,7 +137,7 @@ color: white;
   font-size: 2em;
   font-weight: 600;
   text-align: left;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 .photo{
@@ -159,7 +147,7 @@ margin:0 auto;
 
 .caption{
   font-size: .85em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Slab', serif;
   text-align: left;
   color: black;
   margin: 0.5em;
@@ -191,5 +179,6 @@ margin:0 auto;
 
 #credits {
 text-align: center;
+font-family:'Roboto Slab', serif;
 
 }
