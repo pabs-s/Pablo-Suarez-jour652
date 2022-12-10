@@ -1,8 +1,9 @@
 .navbar-brand {
-color: #DC143C;
+color: #FF69B4;
 font-family: 'Montserrat', sans-serif;
 font-weight: bold;
-text-align: center;
+display : flex;
+justify-content: center;
 }
 
 .hero-container{
@@ -64,7 +65,7 @@ font-weight: 500;
 }
 
 .firstcharacter {
-color: #DC143C;
+color: #FF69B4;
 font-size: 3em;
 }
 
