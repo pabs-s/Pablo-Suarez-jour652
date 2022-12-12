@@ -56,9 +56,9 @@ float: left;
 color: #FFFFFF;
 }
 
-.infographic {
-width: auto;
-height: auto;
+.padding {
+padding-top: 15px;
+padding-bottom: 30px;
 }
 
 
