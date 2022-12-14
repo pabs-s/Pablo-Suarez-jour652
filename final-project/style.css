@@ -1,8 +1,8 @@
 
 
 .navbar-brand {
-background-color: #FF69B4;
-color: #101010;
+background-color: #101010;
+color: #FF69B4;
 font-family:'Roboto Slab', serif;
 font-size: 1.5em;
 font-weight: bolder;
@@ -10,11 +10,6 @@ text-align: center;
 margin: 0 auto;
 width: 100%;
 padding: 0;
-}
-
-
-#background-color {
-  background-color: #101010;
 }
 
 
@@ -44,7 +39,7 @@ color: white;
   font-family: 'Roboto Slab', serif;
   font-size: 55px;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 #byline{
@@ -54,12 +49,7 @@ font-family: 'Roboto Slab', serif;
 text-transform: uppercase;
 font-weight: 500;
 float: left;
-color: #FFFFFF;
-}
-
-.dark-mode {
-  color: #FFFFFF;
-  background: #000000;
+color: #000000;
 }
 
 
@@ -78,7 +68,7 @@ p {
 font-family: Georgia, serif;
 line-height: 180%;
 font-size: 1.25em;
-color: #FFFFFF;
+color: #000000;
 }
 
 
@@ -124,7 +114,7 @@ margin:0 auto;
   text-align: left;
   margin: 0.5em;
  padding: 0.5em;
- color: #FFFFFF;
+ color: #000000;
 }
 
 /* Media Query */
@@ -157,7 +147,7 @@ margin:0 auto;
 .quote{
 	font-weight: 700;
 	font-size: 2.45em;
-	color:#FFFFFF;
+	color:#000000;
 }
 
 .quote-attr{
