@@ -12,9 +12,11 @@ width: 100%;
 padding: 0;
 }
 
+
 #background-color {
   background-color: #101010;
 }
+
 
 .hero-container{
 position: relative;
@@ -57,7 +59,7 @@ color: #FFFFFF;
 
 .dark-mode {
   color: #FFFFFF;
-  background: #000000; 
+  background: #000000;
 }
 
 
