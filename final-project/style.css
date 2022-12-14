@@ -16,7 +16,6 @@ padding: 0;
   background-color: #101010;
 }
 
-
 .hero-container{
 position: relative;
 text-align: center;
@@ -55,6 +54,11 @@ font-weight: 500;
 float: left;
 color: #FFFFFF;
 }
+
+.dark-mode {
+  color: #FFFFFF;
+}
+
 
 .padding {
 padding-top: 15px;
